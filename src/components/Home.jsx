@@ -3,10 +3,9 @@ import Main from "./Main";
 import SettingUser from "./SettingUser";
 
 class Home extends Component {
-
   state = {
-        visibility: false;
-    }
+    visibility: false,
+  };
 
   render() {
     return (
