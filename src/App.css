@@ -1,5 +1,23 @@
+body {
+  background-color: #141414;
+  color: #fff;
+}
+
+.language-select {
+  max-height: 40px !important;
+}
+
+
+#footer p {
+  font-size: 0.8rem;
+}
+
 .App {
   text-align: center;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .App-logo {
@@ -32,7 +50,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 1.4rem;
+
+  }
+
+  .form-select {
+    font-size: 0.8rem;
+  }
+
+  option {
+    font-size: 0.5rem;
   }
 }
